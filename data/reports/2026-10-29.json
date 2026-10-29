@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-29",
+  "created_at": "2026-10-29T10:03:35.361373+02:00",
+  "trading_date": "2026-10-28",
+  "source": "Yahoo Finance",
+  "close": 379.17,
+  "week_usd": 0.02,
+  "week_pct": 0.005,
+  "week": [
+    {
+      "d": "2026-10-22",
+      "c": 374.9
+    },
+    {
+      "d": "2026-10-23",
+      "c": 373.01
+    },
+    {
+      "d": "2026-10-26",
+      "c": 375.59
+    },
+    {
+      "d": "2026-10-27",
+      "c": 377.92
+    },
+    {
+      "d": "2026-10-28",
+      "c": 379.17
+    }
+  ],
+  "portfolio": {
+    "units": 0.0264,
+    "avg_price": 377.91,
+    "cost": 9.9768,
+    "broker": "Blink",
+    "value": 10.0101,
+    "pnl": 0.0333,
+    "pnl_pct": 0.334
+  },
+  "signal": {
+    "level": "ok",
+    "title": "אין צורך בפעולה",
+    "reason": "תנודות רגילות. האסטרטגיה לטווח ארוך לא משתנה בגלל שבוע אחד."
+  },
+  "headlines": [
+    {
+      "title": "American Households Own More of the Stock Market Than at Any Time Since the Dot-Com Era",
+      "link": "https://247wallst.com/investing/2026/10/28/american-households-own-more-of-the-stock-market-than-at-any-time-since-the-dot-com-era/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "date": "2026-10-28T18:03:59+00:00"
+    },
+    {
+      "title": "Wall Street’s Borrowing Binge Is Slowing, and BofA Says That Can Signal a Top",
+      "link": "https://247wallst.com/investing/2026/10/28/wall-streets-borrowing-binge-is-slowing-and-bofa-says-that-can-signal-a-top/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "date": "2026-10-28T15:11:14+00:00"
+    },
+    {
+      "title": "Trump Media Falls 5% Toward $6 With Earnings Ahead; Rumble Ticks Up",
+      "link": "https://247wallst.com/investing/2026/10/28/trump-media-falls-5-toward-6-with-earnings-ahead-rumble-ticks-up/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "date": "2026-10-28T15:07:13+00:00"
+    },
+    {
+      "title": "Robinhood Sinks 7% as Crypto Slump and Tighter Spreads Overshadow Record Prediction Markets Quarter; Interactive Brokers Edges Higher, Webull Barely Budges",
+      "link": "https://247wallst.com/investing/2026/10/28/robinhood-sinks-7-as-crypto-slump-and-tighter-spreads-overshadow-record-prediction-markets-quarter-interactive-brokers-edges-higher-webull-barely-budges/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "date": "2026-10-28T13:19:41+00:00"
+    },
+    {
+      "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Wednesday Ahead of US Fed Rate Announcement",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-125522610.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "date": "2026-10-28T12:55:22+00:00"
+    }
+  ],
+  "previous": null,
+  "conclusion": "אין צורך בפעולה. הקרן זזה ⁦+0.01%⁩ השבוע — בטווח הרגיל. אם תכננת להוסיף כסף, אפשר להמשיך לפי התוכנית שלך ולא לפי מצב השוק השבוע."
+}
