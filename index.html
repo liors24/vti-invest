@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>VTI | סוכן ההשקעות שלי</title>
+<meta name="description" content="מעקב אישי אחרי קרן VTI: שווי ההחזקה, רווח והפסד, דוחות שבועיים ומונחים בעברית פשוטה.">
+<meta name="theme-color" content="#EEF1EC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101816" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="VTI שלי">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700&family=IBM+Plex+Sans+Hebrew:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<a class="skip" href="#main">דילוג לתוכן</a>
+
+<header class="top">
+  <div class="brand">
+    <img src="icons/icon-192.png" alt="" width="28" height="28">
+    <span>VTI <span class="brand-sub">סוכן ההשקעות שלי</span></span>
+  </div>
+  <button class="icon-btn" id="refreshBtn" aria-label="רענון נתונים">
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66M20 4v5h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+</header>
+
+<main id="main" tabindex="-1">
+  <!-- בית -->
+  <section class="view" id="view-home" aria-labelledby="h-home">
+    <h1 class="sr-only" id="h-home">מצב ההשקעה</h1>
+    <div id="homeState"></div>
+
+    <div id="homeContent" hidden>
+      <div class="hero">
+        <p class="hero-label">שווי ההחזקה המשוער</p>
+        <p class="hero-value num" id="heroValue">—</p>
+        <p class="hero-pnl" id="heroPnl"></p>
+      </div>
+
+      <figure class="chart-wrap">
+        <div class="range" role="tablist" aria-label="טווח הגרף">
+          <button role="tab" data-range="21">חודש</button>
+          <button role="tab" data-range="63" aria-selected="true">3 חודשים</button>
+          <button role="tab" data-range="252">שנה</button>
+        </div>
+        <div id="chart" class="chart"></div>
+        <figcaption id="chartCap" class="chart-cap"></figcaption>
+      </figure>
+
+      <div class="split">
+        <div class="split-col">
+          <h2>הקרן</h2>
+          <p class="muted small">שינוי במחיר של VTI עצמה</p>
+          <dl class="kv">
+            <div><dt>מחיר אחרון</dt><dd class="num" id="kPrice">—</dd></div>
+            <div><dt>היום</dt><dd class="num" id="kDay">—</dd></div>
+            <div><dt>שבוע</dt><dd class="num" id="kWeek">—</dd></div>
+            <div><dt>חודש</dt><dd class="num" id="kMonth">—</dd></div>
+          </dl>
+        </div>
+        <div class="split-col">
+          <h2>התיק שלך</h2>
+          <p class="muted small">ביחס למחיר שבו קנית</p>
+          <dl class="kv">
+            <div><dt>יחידות</dt><dd class="num" id="kUnits">—</dd></div>
+            <div><dt>מחיר קנייה</dt><dd class="num" id="kAvg">—</dd></div>
+            <div><dt>עלות</dt><dd class="num" id="kCost">—</dd></div>
+            <div><dt>רווח/הפסד</dt><dd class="num" id="kPnl">—</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <section class="verdict" id="verdict" aria-live="polite"></section>
+
+      <section class="block">
+        <h2>מה קרה בשוק</h2>
+        <p class="muted small" id="marketState"></p>
+        <ul class="news" id="newsList"></ul>
+      </section>
+
+      <p class="stamp" id="stamp"></p>
+    </div>
+  </section>
+
+  <!-- דוחות -->
+  <section class="view" id="view-reports" hidden aria-labelledby="h-reports">
+    <h1 class="view-title" id="h-reports">דוחות שבועיים</h1>
+    <p class="muted">נוצרים אוטומטית בכל יום שישי ב־19:00 שעון ישראל.</p>
+    <div id="reportsList"></div>
+    <article id="reportDetail" hidden></article>
+  </section>
+
+  <!-- למידה -->
+  <section class="view" id="view-learn" hidden aria-labelledby="h-learn">
+    <h1 class="view-title" id="h-learn">ללמוד בקטנה</h1>
+    <div class="glossary" id="glossary"></div>
+  </section>
+
+  <!-- הגדרות -->
+  <section class="view" id="view-settings" hidden aria-labelledby="h-settings">
+    <h1 class="view-title" id="h-settings">התיק שלי</h1>
+    <p class="muted">עדכן כאן אחרי כל קנייה ב־Blink. הנתונים נשמרים רק במכשיר הזה. כדי שגם הווידג׳ט והדוחות יתעדכנו, עדכן גם את הקובץ <code>data/portfolio.json</code> בגיטהאב.</p>
+    <form id="holdingsForm" class="form" novalidate>
+      <label>כמות יחידות
+        <input name="units" inputmode="decimal" autocomplete="off" required>
+      </label>
+      <label>מחיר קנייה ממוצע ($)
+        <input name="avg_price" inputmode="decimal" autocomplete="off" required>
+      </label>
+      <p class="muted small" id="costPreview"></p>
+      <p class="form-error" id="formError" role="alert"></p>
+      <div class="row">
+        <button class="btn primary" type="submit">שמירת התיק</button>
+        <button class="btn" type="button" id="resetHoldings">חזרה לנתוני גיטהאב</button>
+      </div>
+    </form>
+
+    <h2 class="sub">תצוגה</h2>
+    <div class="seg" role="radiogroup" aria-label="ערכת צבעים" id="themeSeg">
+      <button role="radio" data-theme="auto">אוטומטי</button>
+      <button role="radio" data-theme="light">בהיר</button>
+      <button role="radio" data-theme="dark">כהה</button>
+    </div>
+
+    <h2 class="sub">פרטיות</h2>
+    <p class="muted small">אין כאן חיבור לחשבון Blink, ואין שום פעולת קנייה או מכירה. האפליקציה רק קוראת מחירים ציבוריים.</p>
+    <button class="btn danger" type="button" id="wipeLocal">מחיקת כל הנתונים מהמכשיר</button>
+  </section>
+</main>
+
+<nav class="tabs" aria-label="ניווט ראשי">
+  <a href="#home" data-tab="home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17l5-5 4 3 8-8"/><path d="M15 7h5v5"/></svg><span>מצב</span></a>
+  <a href="#reports" data-tab="reports"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg><span>דוחות</span></a>
+  <a href="#learn" data-tab="learn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h6a2 2 0 0 1 2 2v13a2 2 0 0 0-2-2H4zM20 5h-6a2 2 0 0 0-2 2v13a2 2 0 0 1 2-2h6z"/></svg><span>למידה</span></a>
+  <a href="#settings" data-tab="settings"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg><span>התיק</span></a>
+</nav>
+
+<script src="app.js"></script>
+</body>
+</html>

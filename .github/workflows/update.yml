@@ -1,0 +1,58 @@
+name: Update VTI data
+
+on:
+  schedule:
+    # ימי חול: באמצע המסחר ואחרי הסגירה בניו יורק (UTC)
+    - cron: "7 17 * * 1-5"
+    - cron: "23 21 * * 1-5"
+    # דוח שבועי: יום שישי 19:00 שעון ישראל. שתי ריצות מכסות שעון חורף וקיץ;
+    # הסקריפט בודק את השעה בישראל ויוצר דוח אחד בלבד.
+    - cron: "2 16 * * 5"
+    - cron: "2 17 * * 5"
+  workflow_dispatch:
+    inputs:
+      force_report:
+        description: "ליצור דוח שבועי עכשיו"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vti-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch prices, build report, notify
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          if [ "${{ inputs.force_report }}" = "true" ]; then
+            python scripts/update.py --force-report
+          else
+            python scripts/update.py --mode auto
+          fi
+
+      - name: Commit data
+        run: |
+          git config user.name  "vti-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "data: VTI update $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git push
+          fi
