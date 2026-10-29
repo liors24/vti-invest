@@ -113,7 +113,7 @@ async function build() {
 
   w.addSpacer(4);
   text(w, "שווי משוער", Font.systemFont(11), C.muted);
-  const v = text(w, usd(p.value), new Font("Georgia-Bold", fam === "small" ? 30 : 32), C.ink);
+  const v = text(w, usd(p.value), Font.semiboldRoundedSystemFont(fam === "small" ? 30 : 32), C.ink);
   text(w, `${p.pnl >= 0 ? "+" : ""}${usd(p.pnl)}  (${pct(p.pnlPct)})`, Font.mediumSystemFont(12), col(p.pnl));
 
   if (fam !== "small" && d.history && d.history.length > 2) {

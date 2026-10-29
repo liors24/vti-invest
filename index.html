@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>VTI | סוכן ההשקעות שלי</title>
-<meta name="description" content="מעקב אישי אחרי קרן VTI: שווי ההחזקה, רווח והפסד, דוחות שבועיים ומונחים בעברית פשוטה.">
+<meta name="description" content="מעקב אישי אחרי קרן VTI: שווי ההחזקה, בדיקת תוכניות לפני פעולה ב־Blink, יומן פעולות ובוט שעונה על שאלות.">
 <meta name="theme-color" content="#EEF1EC" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#101816" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -13,27 +13,28 @@
 <meta name="apple-mobile-web-app-title" content="VTI שלי">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-<link rel="icon" href="icons/icon-192.png">
+<link rel="icon" href="icons/logo.svg" type="image/svg+xml">
+<link rel="icon" href="icons/favicon.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700&family=IBM+Plex+Sans+Hebrew:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="app.css">
 </head>
 <body>
 <a class="skip" href="#main">דילוג לתוכן</a>
 
 <header class="top">
-  <div class="brand">
-    <img src="icons/icon-192.png" alt="" width="28" height="28">
-    <span>VTI <span class="brand-sub">סוכן ההשקעות שלי</span></span>
-  </div>
+  <a class="brand" href="#home" aria-label="VTI — מסך ראשי">
+    <img src="icons/logo.svg" alt="" width="30" height="30">
+    <span class="brand-name">VTI</span><span class="brand-sub">סוכן ההשקעות שלי</span>
+  </a>
   <button class="icon-btn" id="refreshBtn" aria-label="רענון נתונים">
     <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66M20 4v5h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </button>
 </header>
 
 <main id="main" tabindex="-1">
-  <!-- בית -->
+  <!-- מצב -->
   <section class="view" id="view-home" aria-labelledby="h-home">
     <h1 class="sr-only" id="h-home">מצב ההשקעה</h1>
     <div id="homeState"></div>
@@ -81,6 +82,15 @@
       <section class="verdict" id="verdict" aria-live="polite"></section>
 
       <section class="block">
+        <h2>מה כדאי לעשות עכשיו</h2>
+        <ul class="advice" id="adviceList"></ul>
+        <div class="row" style="margin-top:14px">
+          <a class="btn primary" href="#plan">יש לי תוכנית — בדוק אותה</a>
+          <a class="btn" href="#bot">לשאול את הבוט</a>
+        </div>
+      </section>
+
+      <section class="block">
         <h2>מה קרה בשוק</h2>
         <p class="muted small" id="marketState"></p>
         <ul class="news" id="newsList"></ul>
@@ -90,59 +100,169 @@
     </div>
   </section>
 
+  <!-- תוכנית -->
+  <section class="view" id="view-plan" hidden aria-labelledby="h-plan">
+    <h1 class="view-title" id="h-plan">לפני שאתה לוחץ ב־Blink</h1>
+    <p class="muted">כתוב מה אתה מתכנן, ותקבל הסבר אם זה הגיוני — לפני שאתה מבצע.</p>
+
+    <form id="planForm" class="form" novalidate>
+      <div class="seg wide" role="radiogroup" aria-label="סוג הפעולה" id="planType">
+        <button type="button" role="radio" data-v="buy" aria-checked="true">קנייה</button>
+        <button type="button" role="radio" data-v="sell" aria-checked="false">מכירה</button>
+      </div>
+      <label>נייר ערך
+        <input name="symbol" value="VTI" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="למשל VTI, AAPL, NVDA">
+      </label>
+      <label>סכום ($)
+        <input name="amount" inputmode="decimal" autocomplete="off" placeholder="למשל 20">
+      </label>
+      <fieldset class="checks">
+        <legend>שני דברים לבדוק על עצמך</legend>
+        <label><input type="checkbox" name="cushion"> יש לי כרית ביטחון בצד, והכסף הזה לא נדרש לי בשנים הקרובות</label>
+        <label><input type="checkbox" name="calm"> אני לא פועל בגלל כותרת, התלהבות או פחד מהיום</label>
+      </fieldset>
+      <p class="form-error" id="planError" role="alert"></p>
+      <button class="btn primary" type="submit">בדוק את התוכנית</button>
+    </form>
+
+    <article id="planResult" class="plan-result" hidden aria-live="polite"></article>
+
+    <h2 class="sub">היומן שלי</h2>
+    <p class="muted small">כל פעולה שרשמת — כאן ובבוט. הבוט קורא את היומן כדי לזכור מה עשית.</p>
+    <ul class="journal" id="journalList"></ul>
+  </section>
+
+  <!-- בוט -->
+  <section class="view chat-view" id="view-bot" hidden aria-labelledby="h-bot">
+    <div class="chat-head">
+      <h1 class="view-title" id="h-bot">הבוט שלך</h1>
+      <button class="btn small-btn" type="button" id="newChat">שיחה חדשה</button>
+    </div>
+    <div id="botSetup" hidden></div>
+    <div id="chatLog" class="chat-log" aria-live="polite"></div>
+    <div class="suggest" id="suggest"></div>
+    <form id="chatForm" class="chat-form">
+      <label class="sr-only" for="chatInput">שאלה לבוט</label>
+      <textarea id="chatInput" rows="1" placeholder="שאל משהו, או ספר מה עשית ב־Blink"></textarea>
+      <button class="send" type="submit" aria-label="שליחה">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20 12H5M11 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </form>
+  </section>
+
   <!-- דוחות -->
   <section class="view" id="view-reports" hidden aria-labelledby="h-reports">
     <h1 class="view-title" id="h-reports">דוחות שבועיים</h1>
-    <p class="muted">נוצרים אוטומטית בכל יום שישי ב־19:00 שעון ישראל.</p>
+    <p class="muted" id="reportsIntro">נוצרים אוטומטית בכל יום שישי ב־19:00 שעון ישראל.</p>
     <div id="reportsList"></div>
     <article id="reportDetail" hidden></article>
   </section>
 
-  <!-- למידה -->
-  <section class="view" id="view-learn" hidden aria-labelledby="h-learn">
-    <h1 class="view-title" id="h-learn">ללמוד בקטנה</h1>
-    <div class="glossary" id="glossary"></div>
-  </section>
-
-  <!-- הגדרות -->
-  <section class="view" id="view-settings" hidden aria-labelledby="h-settings">
-    <h1 class="view-title" id="h-settings">התיק שלי</h1>
-    <p class="muted">עדכן כאן אחרי כל קנייה ב־Blink. הנתונים נשמרים רק במכשיר הזה. כדי שגם הווידג׳ט והדוחות יתעדכנו, עדכן גם את הקובץ <code>data/portfolio.json</code> בגיטהאב.</p>
-    <form id="holdingsForm" class="form" novalidate>
-      <label>כמות יחידות
-        <input name="units" inputmode="decimal" autocomplete="off" required>
-      </label>
-      <label>מחיר קנייה ממוצע ($)
-        <input name="avg_price" inputmode="decimal" autocomplete="off" required>
-      </label>
-      <p class="muted small" id="costPreview"></p>
-      <p class="form-error" id="formError" role="alert"></p>
-      <div class="row">
-        <button class="btn primary" type="submit">שמירת התיק</button>
-        <button class="btn" type="button" id="resetHoldings">חזרה לנתוני גיטהאב</button>
-      </div>
-    </form>
-
+  <!-- עוד -->
+  <section class="view" id="view-more" hidden aria-labelledby="h-more">
+    <h1 class="view-title" id="h-more">עוד</h1>
+    <nav class="menu" aria-label="אפשרויות">
+      <a href="#holdings"><span>התיק שלי</span><small>כמות, מחיר קנייה ועמלות</small></a>
+      <a href="#widget"><span>ווידג׳ט לאייפון</span><small>השווי שלך על מסך הבית</small></a>
+      <a href="#learn"><span>ללמוד בקטנה</span><small>מונחים בעברית פשוטה</small></a>
+      <a href="#botsettings"><span>הגדרות הבוט</span><small>מפתח, זיכרון ופרטיות</small></a>
+    </nav>
     <h2 class="sub">תצוגה</h2>
     <div class="seg" role="radiogroup" aria-label="ערכת צבעים" id="themeSeg">
       <button role="radio" data-theme="auto">אוטומטי</button>
       <button role="radio" data-theme="light">בהיר</button>
       <button role="radio" data-theme="dark">כהה</button>
     </div>
-
     <h2 class="sub">פרטיות</h2>
-    <p class="muted small">אין כאן חיבור לחשבון Blink, ואין שום פעולת קנייה או מכירה. האפליקציה רק קוראת מחירים ציבוריים.</p>
+    <p class="muted small">אין כאן חיבור לחשבון Blink, ואין שום פעולת קנייה או מכירה. התיק, היומן והזיכרון של הבוט נשמרים רק במכשיר הזה.</p>
     <button class="btn danger" type="button" id="wipeLocal">מחיקת כל הנתונים מהמכשיר</button>
+  </section>
+
+  <!-- התיק -->
+  <section class="view" id="view-holdings" hidden aria-labelledby="h-holdings">
+    <a class="back" href="#more">› עוד</a>
+    <h1 class="view-title" id="h-holdings">התיק שלי</h1>
+    <p class="muted">עדכן אחרי כל קנייה ב־Blink. כדי שגם הדוחות השבועיים יתעדכנו, עדכן גם את <code>data/portfolio.json</code> בגיטהאב.</p>
+    <form id="holdingsForm" class="form" novalidate>
+      <label>כמות יחידות VTI
+        <input name="units" inputmode="decimal" autocomplete="off" required>
+      </label>
+      <label>מחיר קנייה ממוצע ($)
+        <input name="avg_price" inputmode="decimal" autocomplete="off" required>
+      </label>
+      <p class="muted small" id="costPreview"></p>
+      <label>עמלה לכל פעולה ב־Blink ($)
+        <input name="fee" inputmode="decimal" autocomplete="off" placeholder="בדוק בתעריפון של Blink">
+      </label>
+      <label>עמלת המרת מטבע (%)
+        <input name="fx" inputmode="decimal" autocomplete="off" placeholder="אם יש">
+      </label>
+      <p class="form-error" id="formError" role="alert"></p>
+      <div class="row">
+        <button class="btn primary" type="submit">שמירת התיק</button>
+        <button class="btn" type="button" id="resetHoldings">חזרה לנתוני גיטהאב</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- ווידג'ט -->
+  <section class="view" id="view-widget" hidden aria-labelledby="h-widget">
+    <a class="back" href="#more">› עוד</a>
+    <h1 class="view-title" id="h-widget">ווידג׳ט לאייפון</h1>
+    <p class="muted">אייפון מאפשר ווידג׳טים רק לאפליקציות מה־App Store. לכן הווידג׳ט רץ דרך האפליקציה החינמית <b>Scriptable</b>, ומציג את אותם נתונים כמו כאן.</p>
+    <div class="widget-preview" id="widgetPreview" aria-label="תצוגה מקדימה של הווידג׳ט"></div>
+    <ol class="steps">
+      <li><a href="https://apps.apple.com/app/scriptable/id1405459188" target="_blank" rel="noopener">התקן את Scriptable מה־App Store</a></li>
+      <li><button class="btn primary" type="button" id="copyWidget">העתק את קוד הווידג׳ט</button></li>
+      <li>פתח את Scriptable, לחץ <b>+</b>, הדבק, ותן לסקריפט את השם <b>VTI</b>. <a href="scriptable:///add">פתח את Scriptable</a></li>
+      <li>במסך הבית: לחיצה ארוכה ← <b>+</b> ← <b>Scriptable</b> ← גודל קטן או בינוני ← <b>הוסף ווידג׳ט</b>.</li>
+      <li>לחיצה ארוכה על הווידג׳ט ← <b>ערוך ווידג׳ט</b> ← Script: <b>VTI</b>.</li>
+      <li>למסך הנעילה: לחיצה ארוכה על מסך הנעילה ← <b>התאמה אישית</b> ← הוסף ווידג׳ט Scriptable מלבני ← <b>VTI</b>.</li>
+    </ol>
+  </section>
+
+  <!-- למידה -->
+  <section class="view" id="view-learn" hidden aria-labelledby="h-learn">
+    <a class="back" href="#more">› עוד</a>
+    <h1 class="view-title" id="h-learn">ללמוד בקטנה</h1>
+    <div class="glossary" id="glossary"></div>
+  </section>
+
+  <!-- הגדרות בוט -->
+  <section class="view" id="view-botsettings" hidden aria-labelledby="h-botsettings">
+    <a class="back" href="#more">› עוד</a>
+    <h1 class="view-title" id="h-botsettings">הגדרות הבוט</h1>
+    <form id="keyForm" class="form" novalidate>
+      <label>מפתח Claude API
+        <input name="key" type="password" autocomplete="off" spellcheck="false" placeholder="sk-ant-…">
+      </label>
+      <p class="muted small">המפתח נשמר רק במכשיר הזה ונשלח רק ל־Anthropic. אל תשתף אותו ואל תעלה אותו לגיטהאב. יוצרים מפתח ב־<a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">console.anthropic.com</a>; החיוב לפי שימוש.</p>
+      <p class="form-error" id="keyError" role="alert"></p>
+      <div class="row">
+        <button class="btn primary" type="submit">שמירת המפתח</button>
+        <button class="btn" type="button" id="removeKey">הסרת המפתח</button>
+      </div>
+    </form>
+    <h2 class="sub">מה הבוט זוכר</h2>
+    <p class="muted small">היומן שלך והדברים שביקשת שיזכור. השיחה עצמה מתחילה נקייה בכל כניסה חדשה — הזיכרון נשאר.</p>
+    <ul class="journal" id="notesList"></ul>
+    <div class="row" style="margin-top:12px">
+      <button class="btn" type="button" id="exportMem">גיבוי הזיכרון לקובץ</button>
+      <label class="btn" for="importMem">שחזור מגיבוי</label>
+      <input type="file" id="importMem" accept="application/json" hidden>
+    </div>
   </section>
 </main>
 
 <nav class="tabs" aria-label="ניווט ראשי">
   <a href="#home" data-tab="home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17l5-5 4 3 8-8"/><path d="M15 7h5v5"/></svg><span>מצב</span></a>
+  <a href="#plan" data-tab="plan"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 11l3 3 8-8"/><path d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h9"/></svg><span>תוכנית</span></a>
+  <a href="#bot" data-tab="bot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M9 10h.01M12 10h.01M15 10h.01"/></svg><span>בוט</span></a>
   <a href="#reports" data-tab="reports"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg><span>דוחות</span></a>
-  <a href="#learn" data-tab="learn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h6a2 2 0 0 1 2 2v13a2 2 0 0 0-2-2H4zM20 5h-6a2 2 0 0 0-2 2v13a2 2 0 0 1 2-2h6z"/></svg><span>למידה</span></a>
-  <a href="#settings" data-tab="settings"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg><span>התיק</span></a>
+  <a href="#more" data-tab="more"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="1.2"/><circle cx="12" cy="12" r="1.2"/><circle cx="19" cy="12" r="1.2"/></svg><span>עוד</span></a>
 </nav>
 
 <script src="app.js"></script>
+<script src="bot.js"></script>
 </body>
 </html>

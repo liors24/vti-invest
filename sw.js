@@ -1,6 +1,6 @@
 // מטמון לעבודה גם בלי רשת. נתונים: קודם רשת, ואם אין — העותק האחרון.
-const CACHE = "vti-shell-v1";
-const SHELL = ["./", "index.html", "app.css", "app.js", "manifest.webmanifest", "icons/icon-192.png", "icons/apple-touch-icon.png"];
+const CACHE = "vti-shell-v2";
+const SHELL = ["./", "index.html", "app.css", "app.js", "bot.js", "icons/logo.svg", "manifest.webmanifest", "icons/icon-192.png", "icons/apple-touch-icon.png"];
 self.addEventListener("install", (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL))); self.skipWaiting(); });
 self.addEventListener("activate", (e) => {
   e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE).map((k) => caches.delete(k)))));
