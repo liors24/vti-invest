@@ -2,18 +2,14 @@
   "status": "ok",
   "symbol": "VTI",
   "name": "Vanguard Total Stock Market ETF",
-  "price": 379.17,
-  "price_time": "2026-10-28T20:00:00+00:00",
+  "price": 378.24,
+  "price_time": "2026-10-29T20:00:00+00:00",
   "source": "Yahoo Finance",
-  "change_day_pct": 0.331,
-  "change_week_pct": 0.005,
-  "change_month_pct": 1.042,
+  "change_day_pct": -0.245,
+  "change_week_pct": 0.891,
+  "change_month_pct": 1.069,
   "high_52w": 384.3,
   "history": [
-    {
-      "d": "2025-10-29",
-      "c": 337.71
-    },
     {
       "d": "2025-10-30",
       "c": 334.08
@@ -1013,6 +1009,10 @@
     {
       "d": "2026-10-28",
       "c": 379.17
+    },
+    {
+      "d": "2026-10-29",
+      "c": 378.24
     }
   ],
   "portfolio": {
@@ -1020,9 +1020,9 @@
     "avg_price": 377.91,
     "cost": 9.9768,
     "broker": "Blink",
-    "value": 10.0101,
-    "pnl": 0.0333,
-    "pnl_pct": 0.334
+    "value": 9.9855,
+    "pnl": 0.0087,
+    "pnl_pct": 0.087
   },
   "signal": {
     "level": "ok",
@@ -1031,36 +1031,36 @@
   },
   "headlines": [
     {
-      "title": "American Households Own More of the Stock Market Than at Any Time Since the Dot-Com Era",
-      "link": "https://247wallst.com/investing/2026/10/28/american-households-own-more-of-the-stock-market-than-at-any-time-since-the-dot-com-era/?.tsrc=rss",
+      "title": "Where Will VTI Be in 2046? Here's What 25 Years of History Suggests.",
+      "link": "https://www.fool.com/investing/2026/10/29/where-will-vti-be-2046-what-25-years-history-says/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-10-28T18:03:59+00:00"
+      "date": "2026-10-29T17:35:00+00:00"
     },
     {
-      "title": "Wall Street’s Borrowing Binge Is Slowing, and BofA Says That Can Signal a Top",
-      "link": "https://247wallst.com/investing/2026/10/28/wall-streets-borrowing-binge-is-slowing-and-bofa-says-that-can-signal-a-top/?.tsrc=rss",
+      "title": "Top Economist Slams Trump’s $21 Trillion Investment Boast — ‘The Jobs Are American. The Profits Aren’t’",
+      "link": "https://finance.yahoo.com/economy/policy/articles/top-economist-slams-trump-21-203019398.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-10-28T15:11:14+00:00"
+      "date": "2026-10-29T20:30:19+00:00"
     },
     {
-      "title": "Trump Media Falls 5% Toward $6 With Earnings Ahead; Rumble Ticks Up",
-      "link": "https://247wallst.com/investing/2026/10/28/trump-media-falls-5-toward-6-with-earnings-ahead-rumble-ticks-up/?.tsrc=rss",
+      "title": "How Much Does a 67-Year-Old Couple Need Invested to Collect $10,500 a Month for Life?",
+      "link": "https://247wallst.com/personal-finance/2026/10/29/how-much-does-a-67-year-old-couple-need-invested-to-collect-10500-a-month-for-life/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-10-28T15:07:13+00:00"
+      "date": "2026-10-29T19:17:27+00:00"
     },
     {
-      "title": "Robinhood Sinks 7% as Crypto Slump and Tighter Spreads Overshadow Record Prediction Markets Quarter; Interactive Brokers Edges Higher, Webull Barely Budges",
-      "link": "https://247wallst.com/investing/2026/10/28/robinhood-sinks-7-as-crypto-slump-and-tighter-spreads-overshadow-record-prediction-markets-quarter-interactive-brokers-edges-higher-webull-barely-budges/?.tsrc=rss",
+      "title": "AbbVie Stock: What 10 Years of Growth and Dividends Did for $1,000",
+      "link": "https://247wallst.com/investing/2026/10/29/abbvie-stock-what-10-years-of-growth-and-dividends-did-for-1000/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-10-28T13:19:41+00:00"
+      "date": "2026-10-29T17:18:31+00:00"
     },
     {
-      "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Wednesday Ahead of US Fed Rate Announcement",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-125522610.html?.tsrc=rss",
+      "title": "Vertiv Staged a Small Comeback After Cratering for 6 Months: This Wall Street Team Predicts 76% Gains From Here",
+      "link": "https://247wallst.com/investing/2026/10/29/vertiv-staged-a-small-comeback-after-cratering-for-6-months-this-wall-street-team-predicts-76-gains-from-here/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-10-28T12:55:22+00:00"
+      "date": "2026-10-29T14:45:44+00:00"
     }
   ],
-  "updated_at": "2026-10-29T08:03:35.360447+00:00",
+  "updated_at": "2026-10-29T21:45:42.411602+00:00",
   "alerts": {}
 }
