@@ -2,18 +2,14 @@
   "status": "ok",
   "symbol": "VTI",
   "name": "Vanguard Total Stock Market ETF",
-  "price": 378.24,
-  "price_time": "2026-10-29T20:00:00+00:00",
+  "price": 371.57,
+  "price_time": "2026-10-30T20:00:00+00:00",
   "source": "Yahoo Finance",
-  "change_day_pct": -0.245,
-  "change_week_pct": 0.891,
-  "change_month_pct": 1.069,
+  "change_day_pct": -1.763,
+  "change_week_pct": -0.386,
+  "change_month_pct": -0.962,
   "high_52w": 384.3,
   "history": [
-    {
-      "d": "2025-10-30",
-      "c": 334.08
-    },
     {
       "d": "2025-10-31",
       "c": 335.42
@@ -1013,6 +1009,10 @@
     {
       "d": "2026-10-29",
       "c": 378.24
+    },
+    {
+      "d": "2026-10-30",
+      "c": 371.57
     }
   ],
   "portfolio": {
@@ -1020,9 +1020,9 @@
     "avg_price": 377.91,
     "cost": 9.9768,
     "broker": "Blink",
-    "value": 9.9855,
-    "pnl": 0.0087,
-    "pnl_pct": 0.087
+    "value": 9.8094,
+    "pnl": -0.1674,
+    "pnl_pct": -1.678
   },
   "signal": {
     "level": "ok",
@@ -1031,36 +1031,36 @@
   },
   "headlines": [
     {
-      "title": "Where Will VTI Be in 2046? Here's What 25 Years of History Suggests.",
-      "link": "https://www.fool.com/investing/2026/10/29/where-will-vti-be-2046-what-25-years-history-says/?.tsrc=rss",
+      "title": "8 Months Ago, A Major Wall Street Bank Said Buy Marvell. It’s Up More Than 150%. Here’s Where We See the Stock Going",
+      "link": "https://247wallst.com/investing/2026/10/30/8-months-ago-a-major-wall-street-bank-said-buy-marvell-its-up-more-than-150-heres-where-we-see-the-stock-going/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-10-29T17:35:00+00:00"
+      "date": "2026-10-30T20:17:36+00:00"
     },
     {
-      "title": "Nasdaq 100 Futures Dip On Weak Intel, Amazon Earnings With Bloated Capex Worries Weighing On Sentiment —  AMZN, INTC, SBUX, PLTR, ASTS In Focus",
-      "link": "https://stocktwits.com/news-articles/markets/equity/nasdaq-100-futures-dip-on-weak-intel-amazon-earnings-with-bloated-capex-worries-weighing-on-sentiment-amzn-intc-sbux-pltr-asts-in-focus/cZUXcXOR9Ri?.tsrc=rss",
+      "title": "They Called This Stock a Winner in the AI Coding Boom. A Year Later, It’s Up 94%.",
+      "link": "https://247wallst.com/investing/2026/10/30/they-called-this-stock-a-winner-in-the-ai-coding-boom-a-year-later-its-up-94/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-10-29T23:54:15+00:00"
+      "date": "2026-10-30T16:49:21+00:00"
     },
     {
-      "title": "Top Economist Slams Trump’s $21 Trillion Investment Boast — ‘The Jobs Are American. The Profits Aren’t’",
-      "link": "https://finance.yahoo.com/economy/policy/articles/top-economist-slams-trump-21-203019398.html?.tsrc=rss",
+      "title": "Broadcom’s $63B Anthropic Deal Could Be The One That Finally Gets it Into Gear",
+      "link": "https://247wallst.com/investing/2026/10/30/broadcoms-63b-anthropic-deal-could-be-the-one-that-finally-gets-it-into-gear/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-10-29T20:30:19+00:00"
+      "date": "2026-10-30T11:15:57+00:00"
     },
     {
-      "title": "How Much Does a 67-Year-Old Couple Need Invested to Collect $10,500 a Month for Life?",
-      "link": "https://247wallst.com/personal-finance/2026/10/29/how-much-does-a-67-year-old-couple-need-invested-to-collect-10500-a-month-for-life/?.tsrc=rss",
+      "title": "$1,000 in UPS Stock 10 Years Ago: Did the Dividends Offset the Decline?",
+      "link": "https://247wallst.com/investing/2026/10/30/1000-in-ups-stock-10-years-ago-did-the-dividends-offset-the-decline/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-10-29T19:17:27+00:00"
+      "date": "2026-10-30T19:17:24+00:00"
     },
     {
-      "title": "AbbVie Stock: What 10 Years of Growth and Dividends Did for $1,000",
-      "link": "https://247wallst.com/investing/2026/10/29/abbvie-stock-what-10-years-of-growth-and-dividends-did-for-1000/?.tsrc=rss",
+      "title": "Intel’s Earnings Fallout Is Hitting Your Index Funds Too",
+      "link": "https://247wallst.com/investing/etf/2026/10/30/intels-earnings-fallout-is-hitting-your-index-funds-too/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-10-29T17:18:31+00:00"
+      "date": "2026-10-30T16:21:11+00:00"
     }
   ],
-  "updated_at": "2026-10-30T01:07:37.201452+00:00",
+  "updated_at": "2026-10-30T20:39:01.115857+00:00",
   "alerts": {}
 }
