@@ -2,18 +2,14 @@
   "status": "ok",
   "symbol": "VTI",
   "name": "Vanguard Total Stock Market ETF",
-  "price": 371.57,
-  "price_time": "2026-10-30T20:00:00+00:00",
+  "price": 370.0,
+  "price_time": "2026-11-02T21:00:00+00:00",
   "source": "Yahoo Finance",
-  "change_day_pct": -1.763,
-  "change_week_pct": -0.386,
-  "change_month_pct": -0.962,
+  "change_day_pct": -0.423,
+  "change_week_pct": -1.488,
+  "change_month_pct": -2.114,
   "high_52w": 384.3,
   "history": [
-    {
-      "d": "2025-10-31",
-      "c": 335.42
-    },
     {
       "d": "2025-11-03",
       "c": 335.8
@@ -1013,6 +1009,10 @@
     {
       "d": "2026-10-30",
       "c": 371.57
+    },
+    {
+      "d": "2026-11-02",
+      "c": 370.0
     }
   ],
   "portfolio": {
@@ -1020,9 +1020,9 @@
     "avg_price": 377.91,
     "cost": 9.9768,
     "broker": "Blink",
-    "value": 9.8094,
-    "pnl": -0.1674,
-    "pnl_pct": -1.678
+    "value": 9.768,
+    "pnl": -0.2088,
+    "pnl_pct": -2.093
   },
   "signal": {
     "level": "ok",
@@ -1031,36 +1031,36 @@
   },
   "headlines": [
     {
-      "title": "8 Months Ago, A Major Wall Street Bank Said Buy Marvell. It’s Up More Than 150%. Here’s Where We See the Stock Going",
-      "link": "https://247wallst.com/investing/2026/10/30/8-months-ago-a-major-wall-street-bank-said-buy-marvell-its-up-more-than-150-heres-where-we-see-the-stock-going/?.tsrc=rss",
+      "title": "VOO vs. VTI: Which Vanguard Fund Is the Better Buy Right Now?",
+      "link": "https://www.fool.com/investing/2026/11/02/voo-vs-vti-which-vanguard-fund-better-buy-now/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-10-30T20:17:36+00:00"
+      "date": "2026-11-02T13:44:00+00:00"
     },
     {
-      "title": "They Called This Stock a Winner in the AI Coding Boom. A Year Later, It’s Up 94%.",
-      "link": "https://247wallst.com/investing/2026/10/30/they-called-this-stock-a-winner-in-the-ai-coding-boom-a-year-later-its-up-94/?.tsrc=rss",
+      "title": "SPDR S&P 500 ETF (SPY) Sells NVIDIA and Apple on Oct. 29",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110412869.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-10-30T16:49:21+00:00"
+      "date": "2026-11-02T11:04:12+00:00"
     },
     {
-      "title": "Broadcom’s $63B Anthropic Deal Could Be The One That Finally Gets it Into Gear",
-      "link": "https://247wallst.com/investing/2026/10/30/broadcoms-63b-anthropic-deal-could-be-the-one-that-finally-gets-it-into-gear/?.tsrc=rss",
+      "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Ahead of Busy Corporate Earnings Week",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140145920.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-10-30T11:15:57+00:00"
+      "date": "2026-11-02T14:01:45+00:00"
     },
     {
-      "title": "Investors Have Poured a Record $2.24 Trillion Into ETFs This Year. Three Firms Collected Nearly Half of It",
-      "link": "https://247wallst.com/investing/etf/2026/10/30/investors-have-poured-a-record-2-24-trillion-into-etfs-this-year-three-firms-collected-nearly-half-of-it/?.tsrc=rss",
+      "title": "Applied Materials (AMAT) Sees $77.8 Million in Net ETF Selling on Oct. 29",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-sees-77-110338307.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-10-31T00:03:47+00:00"
+      "date": "2026-11-02T11:03:38+00:00"
     },
     {
-      "title": "$1,000 in UPS Stock 10 Years Ago: Did the Dividends Offset the Decline?",
-      "link": "https://247wallst.com/investing/2026/10/30/1000-in-ups-stock-10-years-ago-did-the-dividends-offset-the-decline/?.tsrc=rss",
+      "title": "ETFs Are Net Sellers of Meta Platforms (META) on Thursday",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-meta-platforms-110258590.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-10-30T19:17:24+00:00"
+      "date": "2026-11-02T11:02:58+00:00"
     }
   ],
-  "updated_at": "2026-10-31T00:52:12.856609+00:00",
+  "updated_at": "2026-11-02T23:51:21.575482+00:00",
   "alerts": {}
 }
