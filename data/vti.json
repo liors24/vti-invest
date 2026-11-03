@@ -2,18 +2,14 @@
   "status": "ok",
   "symbol": "VTI",
   "name": "Vanguard Total Stock Market ETF",
-  "price": 370.0,
-  "price_time": "2026-11-02T21:00:00+00:00",
+  "price": 371.21,
+  "price_time": "2026-11-03T21:00:00+00:00",
   "source": "Yahoo Finance",
-  "change_day_pct": -0.423,
-  "change_week_pct": -1.488,
-  "change_month_pct": -2.114,
+  "change_day_pct": 0.327,
+  "change_week_pct": -1.776,
+  "change_month_pct": -2.467,
   "high_52w": 384.3,
   "history": [
-    {
-      "d": "2025-11-03",
-      "c": 335.8
-    },
     {
       "d": "2025-11-04",
       "c": 331.74
@@ -1013,6 +1009,10 @@
     {
       "d": "2026-11-02",
       "c": 370.0
+    },
+    {
+      "d": "2026-11-03",
+      "c": 371.21
     }
   ],
   "portfolio": {
@@ -1020,9 +1020,9 @@
     "avg_price": 377.91,
     "cost": 9.9768,
     "broker": "Blink",
-    "value": 9.768,
-    "pnl": -0.2088,
-    "pnl_pct": -2.093
+    "value": 9.7999,
+    "pnl": -0.1769,
+    "pnl_pct": -1.773
   },
   "signal": {
     "level": "ok",
@@ -1031,36 +1031,36 @@
   },
   "headlines": [
     {
-      "title": "If You Own SPY, Schwab’s Large-Cap ETF Costs $60 Less a Year on $100K",
-      "link": "https://247wallst.com/investing/etf/2026/11/02/if-you-own-spy-schwabs-large-cap-etf-costs-60-less-a-year-on-100k/?.tsrc=rss",
+      "title": "More Pain Ahead for Tech & Broader Market ETFs?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/more-pain-ahead-tech-broader-140000330.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-03T00:33:34+00:00"
+      "date": "2026-11-03T14:00:00+00:00"
     },
     {
-      "title": "VOO vs. VTI: Which Vanguard Fund Is the Better Buy Right Now?",
-      "link": "https://www.fool.com/investing/2026/11/02/voo-vs-vti-which-vanguard-fund-better-buy-now/?.tsrc=rss",
+      "title": "They Thought This Chip Stock Could Hit $120. It Went All the Way to $354",
+      "link": "https://247wallst.com/investing/2026/11/03/they-thought-this-chip-stock-could-hit-120-it-went-all-the-way-to-354/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-02T13:44:00+00:00"
+      "date": "2026-11-03T12:32:10+00:00"
     },
     {
-      "title": "SPDR S&P 500 ETF (SPY) Sells NVIDIA and Apple on Oct. 29",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110412869.html?.tsrc=rss",
+      "title": "The Stock Market Has Boomed After the Last 19 Midterms. Whether Trump Wins or Loses on Tuesday, Wednesday Could be the Day to Buy",
+      "link": "https://247wallst.com/videos/the-stock-market-has-boomed-after-the-last-19-midterms-whether-trump-wins-or-loses-on-tuesday-wednesday-could-be-the-day-to-buy/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-02T11:04:12+00:00"
+      "date": "2026-11-03T12:07:14+00:00"
     },
     {
-      "title": "S&P 500, Nasdaq Drop As Capex Concerns Grip Tech Investors, Outweighing US-Iran Diplomacy Hope —  ORCL, META, PLTR, AAPL In Focus",
-      "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-drop-as-capex-concerns-grip-tech-investors-outweighing-us-iran-diplomacy-hope/cNGQZKqR9PD?.tsrc=rss",
+      "title": "SPDR S&P 500 ETF (SPY) Adds Vylor and Apple on Friday",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110350124.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-03T00:22:35+00:00"
+      "date": "2026-11-03T11:03:50+00:00"
     },
     {
-      "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Ahead of Busy Corporate Earnings Week",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140145920.html?.tsrc=rss",
+      "title": "The Average Stock Just Beat the S&P 500 by the Most Since 2009",
+      "link": "https://247wallst.com/investing/2026/11/03/the-average-stock-just-beat-the-sp-500-by-the-most-since-2009/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-02T14:01:45+00:00"
+      "date": "2026-11-03T14:12:56+00:00"
     }
   ],
-  "updated_at": "2026-11-03T02:57:03.714457+00:00",
+  "updated_at": "2026-11-03T22:16:39.093958+00:00",
   "alerts": {}
 }
