@@ -2,18 +2,14 @@
   "status": "ok",
   "symbol": "VTI",
   "name": "Vanguard Total Stock Market ETF",
-  "price": 371.21,
-  "price_time": "2026-11-03T21:00:00+00:00",
+  "price": 376.92,
+  "price_time": "2026-11-04T21:00:00+00:00",
   "source": "Yahoo Finance",
-  "change_day_pct": 0.327,
-  "change_week_pct": -1.776,
-  "change_month_pct": -2.467,
+  "change_day_pct": 1.538,
+  "change_week_pct": -0.593,
+  "change_month_pct": -1.469,
   "high_52w": 384.3,
   "history": [
-    {
-      "d": "2025-11-04",
-      "c": 331.74
-    },
     {
       "d": "2025-11-05",
       "c": 333.16
@@ -1013,6 +1009,10 @@
     {
       "d": "2026-11-03",
       "c": 371.21
+    },
+    {
+      "d": "2026-11-04",
+      "c": 376.92
     }
   ],
   "portfolio": {
@@ -1020,9 +1020,9 @@
     "avg_price": 377.91,
     "cost": 9.9768,
     "broker": "Blink",
-    "value": 9.7999,
-    "pnl": -0.1769,
-    "pnl_pct": -1.773
+    "value": 9.9507,
+    "pnl": -0.0261,
+    "pnl_pct": -0.262
   },
   "signal": {
     "level": "ok",
@@ -1031,36 +1031,36 @@
   },
   "headlines": [
     {
-      "title": "More Pain Ahead for Tech & Broader Market ETFs?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/more-pain-ahead-tech-broader-140000330.html?.tsrc=rss",
+      "title": "SPDR S&P 500 ETF (SPY) Buys $297.0 Million More Apple on Nov. 2",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110409530.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-03T14:00:00+00:00"
+      "date": "2026-11-04T11:04:09+00:00"
     },
     {
-      "title": "They Thought This Chip Stock Could Hit $120. It Went All the Way to $354",
-      "link": "https://247wallst.com/investing/2026/11/03/they-thought-this-chip-stock-could-hit-120-it-went-all-the-way-to-354/?.tsrc=rss",
+      "title": "Exchange-Traded Funds, Equity Futures Rise Pre-Bell Wednesday as Investors React to US Midterm Election Results",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141810509.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-03T12:32:10+00:00"
+      "date": "2026-11-04T14:18:10+00:00"
     },
     {
-      "title": "The Stock Market Has Boomed After the Last 19 Midterms. Whether Trump Wins or Loses on Tuesday, Wednesday Could be the Day to Buy",
-      "link": "https://247wallst.com/videos/the-stock-market-has-boomed-after-the-last-19-midterms-whether-trump-wins-or-loses-on-tuesday-wednesday-could-be-the-day-to-buy/?.tsrc=rss",
+      "title": "BofA Warned About This Exact Election Night in August",
+      "link": "https://247wallst.com/investing/2026/11/04/bofa-warned-about-this-exact-election-night-in-august/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-03T12:07:14+00:00"
+      "date": "2026-11-04T13:12:20+00:00"
     },
     {
-      "title": "SPDR S&P 500 ETF (SPY) Adds Vylor and Apple on Friday",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110350124.html?.tsrc=rss",
+      "title": "ETFs Are Buying Costco (COST) on Monday",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-costco-cost-monday-110203555.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-03T11:03:50+00:00"
+      "date": "2026-11-04T11:02:03+00:00"
     },
     {
-      "title": "S&P 500, Nasdaq Recover From AI Rout On US Midterm Election Day —  META, AAPL, AMD, SKHY In Focus",
-      "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-recover-from-ai-rout-on-us-midterm-election-day-meta-aapl-amd-skhy-in-focus/cNGXlSbR9dS?.tsrc=rss",
+      "title": "Walmart (WMT) Sees $152.6 Million in Net ETF Buying on Monday",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-wmt-sees-152-6-110145544.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-03T23:29:55+00:00"
+      "date": "2026-11-04T11:01:45+00:00"
     }
   ],
-  "updated_at": "2026-11-04T01:28:16.277861+00:00",
+  "updated_at": "2026-11-04T22:34:42.153643+00:00",
   "alerts": {}
 }
