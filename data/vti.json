@@ -2,18 +2,14 @@
   "status": "ok",
   "symbol": "VTI",
   "name": "Vanguard Total Stock Market ETF",
-  "price": 376.92,
-  "price_time": "2026-11-04T21:00:00+00:00",
+  "price": 360.52,
+  "price_time": "2026-11-05T21:00:00+00:00",
   "source": "Yahoo Finance",
-  "change_day_pct": 1.538,
-  "change_week_pct": -0.593,
-  "change_month_pct": -1.469,
+  "change_day_pct": -4.351,
+  "change_week_pct": -4.685,
+  "change_month_pct": -5.383,
   "high_52w": 384.3,
   "history": [
-    {
-      "d": "2025-11-05",
-      "c": 333.16
-    },
     {
       "d": "2025-11-06",
       "c": 329.37
@@ -1013,6 +1009,10 @@
     {
       "d": "2026-11-04",
       "c": 376.92
+    },
+    {
+      "d": "2026-11-05",
+      "c": 360.52
     }
   ],
   "portfolio": {
@@ -1020,47 +1020,47 @@
     "avg_price": 377.91,
     "cost": 9.9768,
     "broker": "Blink",
-    "value": 9.9507,
-    "pnl": -0.0261,
-    "pnl_pct": -0.262
+    "value": 9.5177,
+    "pnl": -0.4591,
+    "pnl_pct": -4.602
   },
   "signal": {
-    "level": "ok",
-    "title": "אין צורך בפעולה",
-    "reason": "תנודות רגילות. האסטרטגיה לטווח ארוך לא משתנה בגלל שבוע אחד."
+    "level": "check",
+    "title": "כדאי לבדוק",
+    "reason": "תנועה יומית גדולה מהרגיל: ⁦-4.35%⁩."
   },
   "headlines": [
     {
-      "title": "SPDR S&P 500 ETF (SPY) Buys $297.0 Million More Apple on Nov. 2",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110409530.html?.tsrc=rss",
+      "title": "His Credit Card Cash Back Can Be Deposited Straight Into a Brokerage Account or 529, Where It Can Grow Instead of Getting Spent",
+      "link": "https://247wallst.com/personal-finance/2026/11/05/his-credit-card-cash-back-can-be-deposited-straight-into-a-brokerage-account-or-529-where-it-can-grow-instead-of-getting-spent/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-04T11:04:09+00:00"
+      "date": "2026-11-05T16:01:44+00:00"
     },
     {
-      "title": "If You'd Invested $5,000 in VOO 15 Years Ago, Here's What You'd Have Today",
-      "link": "https://www.fool.com/investing/2026/11/04/if-youd-invested-5000-in-voo-15-years-ago-heres-wh/?.tsrc=rss",
+      "title": "What SPDR S&P 500 ETF (SPY) Bought: Okta Leads on Nov. 3",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110352492.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-04T23:50:00+00:00"
+      "date": "2026-11-05T11:03:52+00:00"
     },
     {
-      "title": "S&P 500, Nasdaq Surge Ahead After Democratic Sweep, Dow Jumps To One-Year High On Lower Oil — AAPL, SNAP, INTC, CRWV, QCOM In Focus",
-      "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-surge-ahead-after-democratic-sweep/cNGLApkR9ET?.tsrc=rss",
+      "title": "Wall Street Is Already Bracing for a 2027 Debt Ceiling Fight",
+      "link": "https://247wallst.com/investing/2026/11/05/wall-street-is-already-bracing-for-a-2027-debt-ceiling-fight/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-04T23:32:33+00:00"
+      "date": "2026-11-05T16:48:04+00:00"
     },
     {
-      "title": "Exchange-Traded Funds, Equity Futures Rise Pre-Bell Wednesday as Investors React to US Midterm Election Results",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141810509.html?.tsrc=rss",
+      "title": "Nvidia Is the Biggest Bet in Your Index Fund. Here’s What Its Drop Just Cost You",
+      "link": "https://247wallst.com/investing/etf/2026/11/05/nvidia-is-the-biggest-bet-in-your-index-fund-heres-what-its-drop-just-cost-you/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-04T14:18:10+00:00"
+      "date": "2026-11-05T16:33:35+00:00"
     },
     {
-      "title": "BofA Warned About This Exact Election Night in August",
-      "link": "https://247wallst.com/investing/2026/11/04/bofa-warned-about-this-exact-election-night-in-august/?.tsrc=rss",
+      "title": "Tesla’s Plunge Just Hit Millions of Index Fund Investors. Here’s How Much Your ETF Lost",
+      "link": "https://247wallst.com/investing/etf/2026/11/05/teslas-plunge-just-hit-millions-of-index-fund-investors-heres-how-much-your-etf-lost/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-04T13:12:20+00:00"
+      "date": "2026-11-05T16:03:49+00:00"
     }
   ],
-  "updated_at": "2026-11-05T01:30:01.690758+00:00",
+  "updated_at": "2026-11-05T22:39:26.522888+00:00",
   "alerts": {}
 }
