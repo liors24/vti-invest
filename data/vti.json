@@ -2,18 +2,14 @@
   "status": "ok",
   "symbol": "VTI",
   "name": "Vanguard Total Stock Market ETF",
-  "price": 360.52,
-  "price_time": "2026-11-05T21:00:00+00:00",
+  "price": 361.93,
+  "price_time": "2026-11-06T21:00:00+00:00",
   "source": "Yahoo Finance",
-  "change_day_pct": -4.351,
-  "change_week_pct": -4.685,
-  "change_month_pct": -5.383,
+  "change_day_pct": 0.391,
+  "change_week_pct": -2.594,
+  "change_month_pct": -4.645,
   "high_52w": 384.3,
   "history": [
-    {
-      "d": "2025-11-06",
-      "c": 329.37
-    },
     {
       "d": "2025-11-07",
       "c": 330.09
@@ -1013,6 +1009,10 @@
     {
       "d": "2026-11-05",
       "c": 360.52
+    },
+    {
+      "d": "2026-11-06",
+      "c": 361.93
     }
   ],
   "portfolio": {
@@ -1020,47 +1020,47 @@
     "avg_price": 377.91,
     "cost": 9.9768,
     "broker": "Blink",
-    "value": 9.5177,
-    "pnl": -0.4591,
-    "pnl_pct": -4.602
+    "value": 9.555,
+    "pnl": -0.4218,
+    "pnl_pct": -4.228
   },
   "signal": {
-    "level": "check",
-    "title": "כדאי לבדוק",
-    "reason": "תנועה יומית גדולה מהרגיל: ⁦-4.35%⁩."
+    "level": "ok",
+    "title": "אין צורך בפעולה",
+    "reason": "תנודות רגילות. האסטרטגיה לטווח ארוך לא משתנה בגלל שבוע אחד."
   },
   "headlines": [
     {
-      "title": "His Credit Card Cash Back Can Be Deposited Straight Into a Brokerage Account or 529, Where It Can Grow Instead of Getting Spent",
-      "link": "https://247wallst.com/personal-finance/2026/11/05/his-credit-card-cash-back-can-be-deposited-straight-into-a-brokerage-account-or-529-where-it-can-grow-instead-of-getting-spent/?.tsrc=rss",
+      "title": "What SPDR S&P 500 ETF (SPY) Sold: Apple Leads on Wednesday",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110412129.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-05T16:01:44+00:00"
+      "date": "2026-11-06T11:04:12+00:00"
     },
     {
-      "title": "What SPDR S&P 500 ETF (SPY) Bought: Okta Leads on Nov. 3",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110352492.html?.tsrc=rss",
+      "title": "Exchange-Traded Funds Higher, Equity Futures Mixed as US October Jobs Rise More than Expected",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-142316139.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-05T11:03:52+00:00"
+      "date": "2026-11-06T14:23:16+00:00"
     },
     {
-      "title": "Wall Street Is Already Bracing for a 2027 Debt Ceiling Fight",
-      "link": "https://247wallst.com/investing/2026/11/05/wall-street-is-already-bracing-for-a-2027-debt-ceiling-fight/?.tsrc=rss",
+      "title": "ETFs Are Net Sellers of Williams (WMB) on Nov. 4",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-williams-wmb-110344609.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-05T16:48:04+00:00"
+      "date": "2026-11-06T11:03:44+00:00"
     },
     {
-      "title": "Nvidia Is the Biggest Bet in Your Index Fund. Here’s What Its Drop Just Cost You",
-      "link": "https://247wallst.com/investing/etf/2026/11/05/nvidia-is-the-biggest-bet-in-your-index-fund-heres-what-its-drop-just-cost-you/?.tsrc=rss",
+      "title": "ETFs Are Net Sellers of General Dynamics (GD) on Nov. 4",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-general-dynamics-110337384.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-05T16:33:35+00:00"
+      "date": "2026-11-06T11:03:37+00:00"
     },
     {
-      "title": "Tesla’s Plunge Just Hit Millions of Index Fund Investors. Here’s How Much Your ETF Lost",
-      "link": "https://247wallst.com/investing/etf/2026/11/05/teslas-plunge-just-hit-millions-of-index-fund-investors-heres-how-much-your-etf-lost/?.tsrc=rss",
+      "title": "ETFs Are Net Sellers of Marathon Petroleum (MPC) on Wednesday",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-marathon-petroleum-110332611.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-05T16:03:49+00:00"
+      "date": "2026-11-06T11:03:32+00:00"
     }
   ],
-  "updated_at": "2026-11-06T01:37:08.198805+00:00",
+  "updated_at": "2026-11-06T21:25:51.299814+00:00",
   "alerts": {}
 }
