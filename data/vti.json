@@ -2,18 +2,14 @@
   "status": "ok",
   "symbol": "VTI",
   "name": "Vanguard Total Stock Market ETF",
-  "price": 370.9,
-  "price_time": "2026-11-09T21:00:00+00:00",
+  "price": 369.55,
+  "price_time": "2026-11-10T21:00:00+00:00",
   "source": "Yahoo Finance",
-  "change_day_pct": 2.478,
-  "change_week_pct": 0.243,
-  "change_month_pct": -2.891,
+  "change_day_pct": -0.364,
+  "change_week_pct": -0.447,
+  "change_month_pct": -3.15,
   "high_52w": 384.3,
   "history": [
-    {
-      "d": "2025-11-10",
-      "c": 334.92
-    },
     {
       "d": "2025-11-11",
       "c": 335.74
@@ -1013,6 +1009,10 @@
     {
       "d": "2026-11-09",
       "c": 370.9
+    },
+    {
+      "d": "2026-11-10",
+      "c": 369.55
     }
   ],
   "portfolio": {
@@ -1020,9 +1020,9 @@
     "avg_price": 377.91,
     "cost": 9.9768,
     "broker": "Blink",
-    "value": 9.7918,
-    "pnl": -0.185,
-    "pnl_pct": -1.854
+    "value": 9.7561,
+    "pnl": -0.2207,
+    "pnl_pct": -2.212
   },
   "signal": {
     "level": "ok",
@@ -1031,36 +1031,36 @@
   },
   "headlines": [
     {
-      "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Amid Global Market Recovery",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141309144.html?.tsrc=rss",
+      "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid October Consumer Inflation Report",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141241479.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-09T14:13:09+00:00"
+      "date": "2026-11-10T14:12:41+00:00"
     },
     {
-      "title": "SPDR S&P 500 ETF (SPY) Sells $182.9 Million of Apple on Nov. 5",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110431430.html?.tsrc=rss",
+      "title": "SPDR S&P 500 ETF (SPY) Sells Apple and Nvidia on Nov. 6",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110412540.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-09T11:04:31+00:00"
+      "date": "2026-11-10T11:04:12+00:00"
     },
     {
-      "title": "Citigroup’s Jane Fraser Says Hedge Funds Drove the Sell-Off. Here’s Why She Doesn’t Expect It to Get Worse",
-      "link": "https://247wallst.com/investing/2026/11/09/citigroups-jane-fraser-says-hedge-funds-drove-the-sell-off-heres-why-she-doesnt-expect-it-to-get-worse/?.tsrc=rss",
+      "title": "ETF Activity: SPY Leads $4.19 Billion Outflow on Nov. 6",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etf-activity-spy-leads-4-110011320.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-09T14:17:08+00:00"
+      "date": "2026-11-10T11:00:11+00:00"
     },
     {
-      "title": "ETFs Are Net Sellers of American Express (AXP) on Nov. 5",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-american-express-110412394.html?.tsrc=rss",
+      "title": "Cathie Wood Is Buying Nvidia Again, Adding 90,443 Shares During the Huang Selloff",
+      "link": "https://247wallst.com/investing/2026/11/10/cathie-wood-is-buying-nvidia-again-adding-90443-shares-during-the-huang-selloff/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-09T11:04:12+00:00"
+      "date": "2026-11-10T16:38:32+00:00"
     },
     {
-      "title": "ETFs Are Net Sellers of NextEra Energy (NEE) on Thursday",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-nextera-energy-110357659.html?.tsrc=rss",
+      "title": "Jensen Huang's Reported Affair With Suspected Chinese Spy Pushes Nvidia Stock to Most Oversold Level Since 2019",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jensen-huangs-reported-affair-suspected-114505663.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-09T11:03:57+00:00"
+      "date": "2026-11-10T11:45:05+00:00"
     }
   ],
-  "updated_at": "2026-11-10T03:38:21.072301+00:00",
+  "updated_at": "2026-11-10T22:20:01.215481+00:00",
   "alerts": {}
 }
