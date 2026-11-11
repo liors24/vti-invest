@@ -2,18 +2,14 @@
   "status": "ok",
   "symbol": "VTI",
   "name": "Vanguard Total Stock Market ETF",
-  "price": 369.55,
-  "price_time": "2026-11-10T21:00:00+00:00",
+  "price": 374.25,
+  "price_time": "2026-11-11T21:00:00+00:00",
   "source": "Yahoo Finance",
-  "change_day_pct": -0.364,
-  "change_week_pct": -0.447,
-  "change_month_pct": -3.15,
+  "change_day_pct": 1.272,
+  "change_week_pct": -0.708,
+  "change_month_pct": -1.854,
   "high_52w": 384.3,
   "history": [
-    {
-      "d": "2025-11-11",
-      "c": 335.74
-    },
     {
       "d": "2025-11-12",
       "c": 335.86
@@ -1013,6 +1009,10 @@
     {
       "d": "2026-11-10",
       "c": 369.55
+    },
+    {
+      "d": "2026-11-11",
+      "c": 374.25
     }
   ],
   "portfolio": {
@@ -1020,9 +1020,9 @@
     "avg_price": 377.91,
     "cost": 9.9768,
     "broker": "Blink",
-    "value": 9.7561,
-    "pnl": -0.2207,
-    "pnl_pct": -2.212
+    "value": 9.8802,
+    "pnl": -0.0966,
+    "pnl_pct": -0.968
   },
   "signal": {
     "level": "ok",
@@ -1031,36 +1031,36 @@
   },
   "headlines": [
     {
-      "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid October Consumer Inflation Report",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141241479.html?.tsrc=rss",
+      "title": "Home Equity Borrowing Jumps the Most Since 2005 as Household Debt Passes $19 Trillion",
+      "link": "https://247wallst.com/investing/2026/11/11/home-equity-borrowing-jumps-the-most-since-2005-as-household-debt-passes-19-trillion/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-10T14:12:41+00:00"
+      "date": "2026-11-11T19:42:35+00:00"
     },
     {
-      "title": "SPDR S&P 500 ETF (SPY) Sells Apple and Nvidia on Nov. 6",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110412540.html?.tsrc=rss",
+      "title": "SPDR S&P 500 ETF (SPY) Adds Apple and Nvidia on Monday",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110306154.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-10T11:04:12+00:00"
+      "date": "2026-11-11T11:03:06+00:00"
     },
     {
-      "title": "Cathie Wood Is Buying Nvidia Again, Adding 90,443 Shares During the Huang Selloff",
-      "link": "https://247wallst.com/investing/2026/11/10/cathie-wood-is-buying-nvidia-again-adding-90443-shares-during-the-huang-selloff/?.tsrc=rss",
+      "title": "ETF Activity: SPY Leads With $4.32 Billion Inflow on Monday",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etf-activity-spy-leads-4-110011779.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-10T16:38:32+00:00"
+      "date": "2026-11-11T11:00:11+00:00"
     },
     {
-      "title": "Jensen Huang's Reported Affair With Suspected Chinese Spy Pushes Nvidia Stock to Most Oversold Level Since 2019",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jensen-huangs-reported-affair-suspected-114505663.html?.tsrc=rss",
+      "title": "Cramer Says Apple Investors Who Sold After Steve Jobs Missed Years Of Gains. The Stock Is Up Nearly 3,000% Since. Now He’s Asking If Nvidia Needs Jensen Huang",
+      "link": "https://247wallst.com/investing/2026/11/11/cramer-says-apple-investors-who-sold-after-steve-jobs-missed-years-of-gains-the-stock-is-up-nearly-3000-since-now-hes-asking-if-nvidia-needs-jensen-huang/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-10T11:45:05+00:00"
+      "date": "2026-11-11T18:46:57+00:00"
     },
     {
-      "title": "ETFs Are Net Sellers of Teradyne (TER) on Nov. 6",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-teradyne-ter-110332108.html?.tsrc=rss",
+      "title": "ETFs Bought $602.5 Million of Microsoft (MSFT) on Nov. 9",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-602-5-million-110106137.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-10T11:03:32+00:00"
+      "date": "2026-11-11T11:01:06+00:00"
     }
   ],
-  "updated_at": "2026-11-11T01:17:47.504499+00:00",
+  "updated_at": "2026-11-11T23:25:52.957202+00:00",
   "alerts": {}
 }
