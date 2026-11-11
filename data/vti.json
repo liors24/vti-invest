@@ -1043,12 +1043,6 @@
       "date": "2026-11-10T11:04:12+00:00"
     },
     {
-      "title": "ETF Activity: SPY Leads $4.19 Billion Outflow on Nov. 6",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/etf-activity-spy-leads-4-110011320.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "date": "2026-11-10T11:00:11+00:00"
-    },
-    {
       "title": "Cathie Wood Is Buying Nvidia Again, Adding 90,443 Shares During the Huang Selloff",
       "link": "https://247wallst.com/investing/2026/11/10/cathie-wood-is-buying-nvidia-again-adding-90443-shares-during-the-huang-selloff/?.tsrc=rss",
       "source": "Yahoo Finance",
@@ -1059,8 +1053,14 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/jensen-huangs-reported-affair-suspected-114505663.html?.tsrc=rss",
       "source": "Yahoo Finance",
       "date": "2026-11-10T11:45:05+00:00"
+    },
+    {
+      "title": "ETFs Are Net Sellers of Teradyne (TER) on Nov. 6",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-teradyne-ter-110332108.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "date": "2026-11-10T11:03:32+00:00"
     }
   ],
-  "updated_at": "2026-11-10T22:20:01.215481+00:00",
+  "updated_at": "2026-11-11T01:17:47.504499+00:00",
   "alerts": {}
 }
