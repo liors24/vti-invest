@@ -2,18 +2,14 @@
   "status": "ok",
   "symbol": "VTI",
   "name": "Vanguard Total Stock Market ETF",
-  "price": 374.25,
-  "price_time": "2026-11-11T21:00:00+00:00",
+  "price": 372.62,
+  "price_time": "2026-11-12T21:00:00+00:00",
   "source": "Yahoo Finance",
-  "change_day_pct": 1.272,
-  "change_week_pct": -0.708,
-  "change_month_pct": -1.854,
+  "change_day_pct": -0.436,
+  "change_week_pct": 3.356,
+  "change_month_pct": -1.13,
   "high_52w": 384.3,
   "history": [
-    {
-      "d": "2025-11-12",
-      "c": 335.86
-    },
     {
       "d": "2025-11-13",
       "c": 329.91
@@ -1013,6 +1009,10 @@
     {
       "d": "2026-11-11",
       "c": 374.25
+    },
+    {
+      "d": "2026-11-12",
+      "c": 372.62
     }
   ],
   "portfolio": {
@@ -1020,9 +1020,9 @@
     "avg_price": 377.91,
     "cost": 9.9768,
     "broker": "Blink",
-    "value": 9.8802,
-    "pnl": -0.0966,
-    "pnl_pct": -0.968
+    "value": 9.8372,
+    "pnl": -0.1396,
+    "pnl_pct": -1.399
   },
   "signal": {
     "level": "ok",
@@ -1031,36 +1031,36 @@
   },
   "headlines": [
     {
-      "title": "Home Equity Borrowing Jumps the Most Since 2005 as Household Debt Passes $19 Trillion",
-      "link": "https://247wallst.com/investing/2026/11/11/home-equity-borrowing-jumps-the-most-since-2005-as-household-debt-passes-19-trillion/?.tsrc=rss",
+      "title": "What SPDR S&P 500 ETF (SPY) Bought: Apple Leads on Nov. 10",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110413896.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-11T19:42:35+00:00"
+      "date": "2026-11-12T11:04:13+00:00"
     },
     {
-      "title": "SPDR S&P 500 ETF (SPY) Adds Apple and Nvidia on Monday",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110306154.html?.tsrc=rss",
+      "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Nvidia Leadership Uncertainty",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140846632.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-11T11:03:06+00:00"
+      "date": "2026-11-12T14:08:46+00:00"
     },
     {
-      "title": "ETF Activity: SPY Leads With $4.32 Billion Inflow on Monday",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/etf-activity-spy-leads-4-110011779.html?.tsrc=rss",
+      "title": "ETFs Bought $83.8 Million of Alphabet (GOOG) on Nov. 10",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-83-8-million-110149451.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-11T11:00:11+00:00"
+      "date": "2026-11-12T11:01:49+00:00"
     },
     {
-      "title": "Cramer Says Apple Investors Who Sold After Steve Jobs Missed Years Of Gains. The Stock Is Up Nearly 3,000% Since. Now He’s Asking If Nvidia Needs Jensen Huang",
-      "link": "https://247wallst.com/investing/2026/11/11/cramer-says-apple-investors-who-sold-after-steve-jobs-missed-years-of-gains-the-stock-is-up-nearly-3000-since-now-hes-asking-if-nvidia-needs-jensen-huang/?.tsrc=rss",
+      "title": "ETFs Bought $88.9 Million of Costco (COST) on Nov. 10",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-88-9-million-110145691.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-11T18:46:57+00:00"
+      "date": "2026-11-12T11:01:45+00:00"
     },
     {
-      "title": "ETFs Bought $602.5 Million of Microsoft (MSFT) on Nov. 9",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-602-5-million-110106137.html?.tsrc=rss",
+      "title": "ETFs Are Buying Tesla (TSLA) on Nov. 10",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-tesla-tsla-nov-110053409.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-11T11:01:06+00:00"
+      "date": "2026-11-12T11:00:53+00:00"
     }
   ],
-  "updated_at": "2026-11-12T02:18:17.392550+00:00",
+  "updated_at": "2026-11-12T22:41:42.688601+00:00",
   "alerts": {}
 }
