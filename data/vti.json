@@ -2,18 +2,14 @@
   "status": "ok",
   "symbol": "VTI",
   "name": "Vanguard Total Stock Market ETF",
-  "price": 371.11,
-  "price_time": "2026-11-13T21:00:00+00:00",
+  "price": 364.3,
+  "price_time": "2026-11-16T21:00:00+00:00",
   "source": "Yahoo Finance",
-  "change_day_pct": -0.405,
-  "change_week_pct": 2.536,
-  "change_month_pct": -1.932,
+  "change_day_pct": -1.835,
+  "change_week_pct": -1.779,
+  "change_month_pct": -2.612,
   "high_52w": 384.3,
   "history": [
-    {
-      "d": "2025-11-14",
-      "c": 329.86
-    },
     {
       "d": "2025-11-17",
       "c": 326.43
@@ -1013,6 +1009,10 @@
     {
       "d": "2026-11-13",
       "c": 371.11
+    },
+    {
+      "d": "2026-11-16",
+      "c": 364.3
     }
   ],
   "portfolio": {
@@ -1020,9 +1020,9 @@
     "avg_price": 377.91,
     "cost": 9.9768,
     "broker": "Blink",
-    "value": 9.7973,
-    "pnl": -0.1795,
-    "pnl_pct": -1.799
+    "value": 9.6175,
+    "pnl": -0.3593,
+    "pnl_pct": -3.601
   },
   "signal": {
     "level": "ok",
@@ -1031,36 +1031,36 @@
   },
   "headlines": [
     {
-      "title": "SPDR S&P 500 ETF (SPY) Buys $335.9 Million More Apple on Nov. 11",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110304063.html?.tsrc=rss",
+      "title": "SPDR S&P 500 ETF (SPY) Sells Apple and Nvidia on Thursday",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110358769.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-13T11:03:04+00:00"
+      "date": "2026-11-16T11:03:58+00:00"
     },
     {
-      "title": "ETFs Bought $107.9 Million of Visa (V) on Nov. 11",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-107-9-million-110141909.html?.tsrc=rss",
+      "title": "NVIDIA After Jensen: What's Next for the AI Trade?",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-jensen-whats-next-ai-213900593.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-13T11:01:41+00:00"
+      "date": "2026-11-16T21:39:00+00:00"
     },
     {
-      "title": "Will ETF Buying Change Meta Stock Narrative",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/etf-buying-change-meta-stock-002017757.html?.tsrc=rss",
+      "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid Weakness in AI-Linked Stocks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141346501.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-14T00:20:17+00:00"
+      "date": "2026-11-16T14:13:46+00:00"
     },
     {
-      "title": "$1 Million In SCHD Five Years Ago: What Is It Worth Now?",
-      "link": "https://www.trefis.com/stock/schd/articles/624814/1-million-in-schd-five-years-ago-what-is-it-worth-now/2026-11-13?.tsrc=rss",
+      "title": "ETFs Are Net Sellers of Deere (DE) on Nov. 12",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-deere-nov-110339768.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-13T14:56:12+00:00"
+      "date": "2026-11-16T11:03:39+00:00"
     },
     {
-      "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Producer Inflation Trails Forecasts",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141316665.html?.tsrc=rss",
+      "title": "ETFs Are Net Sellers of Analog Devices (ADI) on Thursday",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-analog-devices-110319947.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-13T14:13:16+00:00"
+      "date": "2026-11-16T11:03:19+00:00"
     }
   ],
-  "updated_at": "2026-11-14T01:29:48.953181+00:00",
+  "updated_at": "2026-11-17T00:46:01.971374+00:00",
   "alerts": {}
 }
