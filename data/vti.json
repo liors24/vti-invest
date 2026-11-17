@@ -2,18 +2,14 @@
   "status": "ok",
   "symbol": "VTI",
   "name": "Vanguard Total Stock Market ETF",
-  "price": 364.3,
-  "price_time": "2026-11-16T21:00:00+00:00",
+  "price": 360.19,
+  "price_time": "2026-11-17T21:00:00+00:00",
   "source": "Yahoo Finance",
-  "change_day_pct": -1.835,
-  "change_week_pct": -1.779,
-  "change_month_pct": -2.612,
+  "change_day_pct": -1.128,
+  "change_week_pct": -2.533,
+  "change_month_pct": -4.087,
   "high_52w": 384.3,
   "history": [
-    {
-      "d": "2025-11-17",
-      "c": 326.43
-    },
     {
       "d": "2025-11-18",
       "c": 324.22
@@ -1013,6 +1009,10 @@
     {
       "d": "2026-11-16",
       "c": 364.3
+    },
+    {
+      "d": "2026-11-17",
+      "c": 360.19
     }
   ],
   "portfolio": {
@@ -1020,9 +1020,9 @@
     "avg_price": 377.91,
     "cost": 9.9768,
     "broker": "Blink",
-    "value": 9.6175,
-    "pnl": -0.3593,
-    "pnl_pct": -3.601
+    "value": 9.509,
+    "pnl": -0.4678,
+    "pnl_pct": -4.689
   },
   "signal": {
     "level": "ok",
@@ -1031,36 +1031,36 @@
   },
   "headlines": [
     {
-      "title": "SPDR S&P 500 ETF (SPY) Sells Apple and Nvidia on Thursday",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110358769.html?.tsrc=rss",
+      "title": "The Overlooked JPMorgan ETF That Owns Nearly 300 of the Market’s Strongest Stocks for 0.12%",
+      "link": "https://247wallst.com/investing/etf/2026/11/17/the-overlooked-jpmorgan-etf-that-owns-nearly-300-of-the-markets-strongest-stocks-for-0-12/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-16T11:03:58+00:00"
+      "date": "2026-11-17T12:37:51+00:00"
     },
     {
-      "title": "NVIDIA After Jensen: What's Next for the AI Trade?",
-      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-jensen-whats-next-ai-213900593.html?.tsrc=rss",
+      "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday as Investors Await Nvidia Earnings",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141622060.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-16T21:39:00+00:00"
+      "date": "2026-11-17T14:16:22+00:00"
     },
     {
-      "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid Weakness in AI-Linked Stocks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141346501.html?.tsrc=rss",
+      "title": "ETFs Are Buying Chevron (CVX) on Friday",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-chevron-cvx-friday-110158202.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-16T14:13:46+00:00"
+      "date": "2026-11-17T11:01:58+00:00"
     },
     {
-      "title": "ETFs Are Net Sellers of Deere (DE) on Nov. 12",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-deere-nov-110339768.html?.tsrc=rss",
+      "title": "ETFs Bought $111.9 Million of Cisco (CSCO) on Nov. 13",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-111-9-million-110152347.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-16T11:03:39+00:00"
+      "date": "2026-11-17T11:01:52+00:00"
     },
     {
-      "title": "ETFs Are Net Sellers of Analog Devices (ADI) on Thursday",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-analog-devices-110319947.html?.tsrc=rss",
+      "title": "Bill Ackman Cut His Microsoft Stake. Your S&P 500 Fund Can’t.",
+      "link": "https://247wallst.com/investing/etf/2026/11/17/bill-ackman-cut-his-microsoft-stake-your-sp-500-fund-cant/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-16T11:03:19+00:00"
+      "date": "2026-11-17T18:02:20+00:00"
     }
   ],
-  "updated_at": "2026-11-17T03:58:39.010089+00:00",
+  "updated_at": "2026-11-17T23:49:49.456941+00:00",
   "alerts": {}
 }
