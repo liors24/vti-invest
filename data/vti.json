@@ -2,18 +2,14 @@
   "status": "ok",
   "symbol": "VTI",
   "name": "Vanguard Total Stock Market ETF",
-  "price": 352.41,
-  "price_time": "2026-11-19T21:00:00+00:00",
+  "price": 340.02,
+  "price_time": "2026-11-20T21:00:02+00:00",
   "source": "Yahoo Finance",
-  "change_day_pct": -1.967,
-  "change_week_pct": -5.424,
-  "change_month_pct": -7.053,
+  "change_day_pct": -3.516,
+  "change_week_pct": -8.378,
+  "change_month_pct": -9.304,
   "high_52w": 384.3,
   "history": [
-    {
-      "d": "2025-11-20",
-      "c": 320.1
-    },
     {
       "d": "2025-11-21",
       "c": 323.8
@@ -1013,6 +1009,10 @@
     {
       "d": "2026-11-19",
       "c": 352.41
+    },
+    {
+      "d": "2026-11-20",
+      "c": 340.02
     }
   ],
   "portfolio": {
@@ -1020,47 +1020,47 @@
     "avg_price": 377.91,
     "cost": 9.9768,
     "broker": "Blink",
-    "value": 9.3036,
-    "pnl": -0.6732,
-    "pnl_pct": -6.748
+    "value": 8.9765,
+    "pnl": -1.0003,
+    "pnl_pct": -10.026
   },
   "signal": {
     "level": "check",
     "title": "כדאי לבדוק",
-    "reason": "תנועה שבועית גדולה מהרגיל: ⁦-5.42%⁩."
+    "reason": "תנועה יומית גדולה מהרגיל: ⁦-3.52%⁩."
   },
   "headlines": [
     {
-      "title": "Peter Lynch Made “Growth at a Reasonable Price” Famous. SPGP Runs the S&P 500 Through That Filter and Keeps 75 Stocks",
-      "link": "https://247wallst.com/investing/etf/2026/11/19/peter-lynch-made-growth-at-a-reasonable-price-famous-spgp-runs-the-sp-500-through-that-filter-and-keeps-75-stocks/?.tsrc=rss",
+      "title": "Warren Buffett’s 3 Biggest Investing Lessons for Anyone Retiring in 2027",
+      "link": "https://247wallst.com/personal-finance/2026/11/20/warren-buffetts-3-biggest-investing-lessons-for-anyone-retiring-in-2027/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-19T15:13:01+00:00"
+      "date": "2026-11-20T18:29:30+00:00"
     },
     {
-      "title": "Wall Street Subdued So Far in Q4: What Lies Ahead?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-subdued-far-q4-120000528.html?.tsrc=rss",
+      "title": "SPDR S&P 500 ETF (SPY) Sells Apple and Microsoft on Nov. 18",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110339564.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-19T12:00:00+00:00"
+      "date": "2026-11-20T11:03:39+00:00"
     },
     {
-      "title": "If You Have $1,000 to Invest Right Now, Here's the 1 ETF I'd Buy Without a Second Thought",
-      "link": "https://www.fool.com/investing/2026/11/19/if-you-have-1000-to-invest-right-now-heres-the-1-etf-id-buy-without-a-second-thought/?.tsrc=rss",
+      "title": "ETFs Are Net Sellers of Broadcom (AVGO) on Nov. 18",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-broadcom-avgo-110250063.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-19T17:13:02+00:00"
+      "date": "2026-11-20T11:02:50+00:00"
     },
     {
-      "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Ahead of Anthropic Stock Market Debut",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141450756.html?.tsrc=rss",
+      "title": "Managed Futures Are a Hedge Fund Staple. RSST Stacks $1 of Them on Top of $1 of U.S. Stocks",
+      "link": "https://247wallst.com/investing/etf/2026/11/20/managed-futures-are-a-hedge-fund-staple-rsst-stacks-1-of-them-on-top-of-1-of-u-s-stocks/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-19T14:14:50+00:00"
+      "date": "2026-11-20T16:36:11+00:00"
     },
     {
-      "title": "Five Straight Losses, One Divergence: Where the Major Indexes Stand Now",
-      "link": "https://finance.yahoo.com/markets/world-indices/articles/five-straight-losses-one-divergence-130000760.html?.tsrc=rss",
+      "title": "The Biggest Winners from the Anthropic IPO Could Be Everyday SPY Investors",
+      "link": "https://www.barchart.com/story/news/8937798/the-biggest-winners-from-the-anthropic-ipo-could-be-everyday-spy-investors?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-19T13:00:00+00:00"
+      "date": "2026-11-20T16:02:04+00:00"
     }
   ],
-  "updated_at": "2026-11-20T02:24:12.112053+00:00",
+  "updated_at": "2026-11-20T22:35:43.654584+00:00",
   "alerts": {}
 }
