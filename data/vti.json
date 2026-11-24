@@ -2,18 +2,14 @@
   "status": "ok",
   "symbol": "VTI",
   "name": "Vanguard Total Stock Market ETF",
-  "price": 340.02,
-  "price_time": "2026-11-20T21:00:02+00:00",
+  "price": 355.27,
+  "price_time": "2026-11-23T21:00:00+00:00",
   "source": "Yahoo Finance",
-  "change_day_pct": -3.516,
-  "change_week_pct": -8.378,
-  "change_month_pct": -9.304,
+  "change_day_pct": 4.485,
+  "change_week_pct": -2.479,
+  "change_month_pct": -4.756,
   "high_52w": 384.3,
   "history": [
-    {
-      "d": "2025-11-21",
-      "c": 323.8
-    },
     {
       "d": "2025-11-24",
       "c": 328.64
@@ -1013,6 +1009,10 @@
     {
       "d": "2026-11-20",
       "c": 340.02
+    },
+    {
+      "d": "2026-11-23",
+      "c": 355.27
     }
   ],
   "portfolio": {
@@ -1020,47 +1020,47 @@
     "avg_price": 377.91,
     "cost": 9.9768,
     "broker": "Blink",
-    "value": 8.9765,
-    "pnl": -1.0003,
-    "pnl_pct": -10.026
+    "value": 9.3791,
+    "pnl": -0.5977,
+    "pnl_pct": -5.991
   },
   "signal": {
     "level": "check",
     "title": "כדאי לבדוק",
-    "reason": "תנועה יומית גדולה מהרגיל: ⁦-3.52%⁩."
+    "reason": "תנועה יומית גדולה מהרגיל: ⁦+4.49%⁩."
   },
   "headlines": [
     {
-      "title": "Warren Buffett’s 3 Biggest Investing Lessons for Anyone Retiring in 2027",
-      "link": "https://247wallst.com/personal-finance/2026/11/20/warren-buffetts-3-biggest-investing-lessons-for-anyone-retiring-in-2027/?.tsrc=rss",
+      "title": "Why stocks had their best Monday since 2020",
+      "link": "https://finance.yahoo.com/markets/article/why-stocks-are-having-their-wildest-morning-since-2008-184837610.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-20T18:29:30+00:00"
+      "date": "2026-11-23T15:31:00+00:00"
     },
     {
-      "title": "SPDR S&P 500 ETF (SPY) Sells Apple and Microsoft on Nov. 18",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110339564.html?.tsrc=rss",
+      "title": "What SPDR S&P 500 ETF Trust (SPY) Sold: Apple Leads on Nov. 19",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-trust-110402082.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-20T11:03:39+00:00"
+      "date": "2026-11-23T11:04:02+00:00"
     },
     {
-      "title": "ETFs Are Net Sellers of Broadcom (AVGO) on Nov. 18",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-broadcom-avgo-110250063.html?.tsrc=rss",
+      "title": "Nvidia Is About 5% of a $500,000 S&P 500 Fund. On Monday Morning It Delivered About a Third of the Fund’s $23,900 Gain",
+      "link": "https://247wallst.com/investing/2026/11/23/nvidia-is-about-5-of-a-500000-sp-500-fund-on-monday-morning-it-delivered-about-a-third-of-the-funds-23900-gain/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-20T11:02:50+00:00"
+      "date": "2026-11-23T15:03:00+00:00"
     },
     {
-      "title": "Managed Futures Are a Hedge Fund Staple. RSST Stacks $1 of Them on Top of $1 of U.S. Stocks",
-      "link": "https://247wallst.com/investing/etf/2026/11/20/managed-futures-are-a-hedge-fund-staple-rsst-stacks-1-of-them-on-top-of-1-of-u-s-stocks/?.tsrc=rss",
+      "title": "How Risky Is ServiceNow Stock In A Falling Market?",
+      "link": "https://www.trefis.com/stock/now/articles/627538/how-risky-is-servicenow-stock-in-a-falling-market/2026-11-22?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-20T16:36:11+00:00"
+      "date": "2026-11-23T11:18:17+00:00"
     },
     {
-      "title": "The Biggest Winners from the Anthropic IPO Could Be Everyday SPY Investors",
-      "link": "https://www.barchart.com/story/news/8937798/the-biggest-winners-from-the-anthropic-ipo-could-be-everyday-spy-investors?.tsrc=rss",
+      "title": "ETFs Are Net Sellers of Visa (V) on Thursday",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-visa-v-110300948.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-20T16:02:04+00:00"
+      "date": "2026-11-23T11:03:00+00:00"
     }
   ],
-  "updated_at": "2026-11-21T02:27:47.693866+00:00",
+  "updated_at": "2026-11-24T03:17:53.290387+00:00",
   "alerts": {}
 }
