@@ -2,18 +2,14 @@
   "status": "ok",
   "symbol": "VTI",
   "name": "Vanguard Total Stock Market ETF",
-  "price": 355.27,
-  "price_time": "2026-11-23T21:00:00+00:00",
+  "price": 353.84,
+  "price_time": "2026-11-24T21:00:00+00:00",
   "source": "Yahoo Finance",
-  "change_day_pct": 4.485,
-  "change_week_pct": -2.479,
-  "change_month_pct": -4.756,
+  "change_day_pct": -0.403,
+  "change_week_pct": -1.763,
+  "change_month_pct": -5.791,
   "high_52w": 384.3,
   "history": [
-    {
-      "d": "2025-11-24",
-      "c": 328.64
-    },
     {
       "d": "2025-11-25",
       "c": 332.16
@@ -1013,6 +1009,10 @@
     {
       "d": "2026-11-23",
       "c": 355.27
+    },
+    {
+      "d": "2026-11-24",
+      "c": 353.84
     }
   ],
   "portfolio": {
@@ -1020,47 +1020,47 @@
     "avg_price": 377.91,
     "cost": 9.9768,
     "broker": "Blink",
-    "value": 9.3791,
-    "pnl": -0.5977,
-    "pnl_pct": -5.991
+    "value": 9.3414,
+    "pnl": -0.6354,
+    "pnl_pct": -6.369
   },
   "signal": {
-    "level": "check",
-    "title": "כדאי לבדוק",
-    "reason": "תנועה יומית גדולה מהרגיל: ⁦+4.49%⁩."
+    "level": "ok",
+    "title": "אין צורך בפעולה",
+    "reason": "תנודות רגילות. האסטרטגיה לטווח ארוך לא משתנה בגלל שבוע אחד."
   },
   "headlines": [
     {
-      "title": "Why stocks had their best Monday since 2020",
-      "link": "https://finance.yahoo.com/markets/article/why-stocks-are-having-their-wildest-morning-since-2008-184837610.html?.tsrc=rss",
+      "title": "Own Humana Stock? Its Profit Cushion Is The Thinnest",
+      "link": "https://www.trefis.com/stock/unh/articles/628256/own-humana-stock-its-profit-cushion-is-the-thinnest/2026-11-24?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-23T15:31:00+00:00"
+      "date": "2026-11-24T13:03:08+00:00"
     },
     {
-      "title": "What SPDR S&P 500 ETF Trust (SPY) Sold: Apple Leads on Nov. 19",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-trust-110402082.html?.tsrc=rss",
+      "title": "Is Apple (AAPL) Above Fair Value As ETF Buying Returns?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-above-fair-value-211324050.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-23T11:04:02+00:00"
+      "date": "2026-11-24T21:13:24+00:00"
     },
     {
-      "title": "Nvidia Is About 5% of a $500,000 S&P 500 Fund. On Monday Morning It Delivered About a Third of the Fund’s $23,900 Gain",
-      "link": "https://247wallst.com/investing/2026/11/23/nvidia-is-about-5-of-a-500000-sp-500-fund-on-monday-morning-it-delivered-about-a-third-of-the-funds-23900-gain/?.tsrc=rss",
+      "title": "If Anthropic Does This It Could Reach $130 By Year End",
+      "link": "https://247wallst.com/investing/2026/11/24/if-anthropic-does-this-it-could-reach-130-by-year-end/?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-23T15:03:00+00:00"
+      "date": "2026-11-24T15:45:48+00:00"
     },
     {
-      "title": "How Risky Is ServiceNow Stock In A Falling Market?",
-      "link": "https://www.trefis.com/stock/now/articles/627538/how-risky-is-servicenow-stock-in-a-falling-market/2026-11-22?.tsrc=rss",
+      "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Investors Pull Back From AI-Related Stocks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141922343.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-23T11:18:17+00:00"
+      "date": "2026-11-24T14:19:22+00:00"
     },
     {
-      "title": "ETFs Are Net Sellers of Visa (V) on Thursday",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-visa-v-110300948.html?.tsrc=rss",
+      "title": "Here's Why Investors Should Go Defensive Now: ETFs in Focus",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-investors-defensive-now-134200178.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "date": "2026-11-23T11:03:00+00:00"
+      "date": "2026-11-24T13:42:00+00:00"
     }
   ],
-  "updated_at": "2026-11-24T05:21:52.403708+00:00",
+  "updated_at": "2026-11-25T01:23:14.213002+00:00",
   "alerts": {}
 }
